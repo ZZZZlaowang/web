@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+	text-align: center;
+}
+#tip{
+	width:1400px;
+	height: 25px;
+	background: #cccccc;
+	margin: auto; 
+	margin-top: 150px; 
+
+}
+#tip > img{
+	margin-left: 202.451px;
+}
+#tipzi{
+	width: 450px;
+	height: 25px;
+	position: absolute;
+	right: 150px;
+	top: 150px;
+}
+.box{
+	width: 1200px;
+	height: 382px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	top: 175px;
+	line-height: 50px;
+	background: red;
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 25.25px;
+}
+#right{
+	right: 25.25px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
